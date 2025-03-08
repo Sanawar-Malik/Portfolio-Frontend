@@ -1,0 +1,8 @@
+{
+  "routes": [
+    { "src": "/admin/.*", "dest": "/index.html" },
+    { "src": "/projects/.*", "dest": "/index.html" },
+    { "src": "/login", "dest": "/index.html" },
+    { "src": "/.*", "dest": "/index.html" }
+  ]
+}
