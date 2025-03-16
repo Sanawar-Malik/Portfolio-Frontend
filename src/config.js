@@ -4,4 +4,5 @@ export const LINKEDIN = import.meta.env.VITE_LINKEDIN;
 export const TELEGRAM = import.meta.env.VITE_TELEGRAM;
 export const TWITTER = import.meta.env.VITE_TWITTER;
 export const GOOGLE_DRIVE = import.meta.env.VITE_GOOGLE_DRIVE;
+export const BASE_URL_IMAGE = import.meta.env._VITE_BASE_URL_IMAGE;
 
