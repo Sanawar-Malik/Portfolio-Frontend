@@ -2,6 +2,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { fetchProject } from "../services/Alldata";
 import { useQuery } from "@tanstack/react-query";
 import ReactMarkdown from 'react-markdown';
+
 export const Project = ({ projectId, setShowModal }) => {
   const { isLoading, error, data: projects } = useQuery({
     queryKey: ['projects'],

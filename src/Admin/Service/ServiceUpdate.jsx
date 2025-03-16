@@ -65,7 +65,7 @@ export const ServiceUpdate = ({ setUpdateModal, id }) => {
         <div className="relative w-4/5 sm mx-auto bg-white my-10">
           <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
             <div className="flex items-start justify-between p-2 border-b bg-light-gray border-solid border-gray-300 rounded-t ">
-              <h3 className="text-3xl font-semibold bg-gradient-to-r from-fuchsia-600 via-violet-600 to-indigo-600 bg-clip-text text-transparent">Update Project</h3>
+              <h3 className="text-3xl font-semibold bg-gradient-to-r from-fuchsia-600 via-violet-600 to-indigo-600 bg-clip-text text-transparent">Update Service</h3>
               <button className="bg-transparent border-0 text-black float-right" onClick={() => setUpdateModal(false)}>
                 <CloseIcon />
               </button>
@@ -98,7 +98,7 @@ export const ServiceUpdate = ({ setUpdateModal, id }) => {
                   {server_error.description ? <p className='text-sm text-red-400'>{server_error.description[0]}</p> : ""}
                 </div>
                 <div className="relative flex  flex-col mt-4  justify-center">
-                  <button type='submit' className="bg-gradient-to-r from-fuchsia-600 to-purple-600 w-max mx-auto text-white font-semibold px-10 py-2 rounded-2xl hover:shadow-sm transition-all duration-500">Update Project</button>
+                  <button type='submit' className="bg-gradient-to-r from-fuchsia-600 to-purple-600 w-max mx-auto text-white font-semibold px-10 py-2 rounded-2xl hover:shadow-sm transition-all duration-500">Update Service</button>
                 </div>
               </form>
             </div>
