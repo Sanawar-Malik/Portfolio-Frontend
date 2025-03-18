@@ -41,7 +41,7 @@ export const Projects = () => {
             projects.map(project => (
               <div key={project.id} className="rounded-lg border-2 border-transparent bg-gradient-to-b from-green-500 via-blue-500 to-purple-600 text-gray-400">
                 <div className="bg-[#160246] rounded-lg overflow-hidden">
-                  <img className="h-48 w-full object-cover object-end" src={`${BASE_URL_IMAGE}${project.image}`} alt="Project" />
+                  <img className="h-48 w-full object-cover object-end" src={project.image} alt="Project" />
                   <div className="p-6">
                     <h4 className="text-white mt-2 font-semibold text-lg leading-tight truncate">{project.name}</h4>
                     <div className="mt-1">

@@ -31,7 +31,7 @@ export const Service = () => {
           {services.map((item, index) => (
             <div key={index} className="relative w-40 h-40  bg-gradient-to-b from-green-500 via-blue-500 to-purple-600 p-0.5 shadow-lg">
               <div className="bg-[#160246] w-full h-full flex flex-col justify-evenly items-center">
-                <img className="w-10 h-10 object-fill object-center transition duration-50" loading="lazy" src={`${BASE_URL_IMAGE}${item.image}`} alt={item.name} />
+                <img className="w-10 h-10 object-fill object-center transition duration-50" loading="lazy" src={item.image} alt={item.name} />
                 <h3 className="text-white sm:text-[14px] text-[12px] font-bold text-center">
                   {item.name}
                 </h3>
